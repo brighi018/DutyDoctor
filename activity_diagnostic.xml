@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescriptionActivity"
+    android:layout_centerHorizontal="true"
+    android:gravity="center_horizontal"
+    android:background="@color/lightBlue" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:padding="40dp"
+        android:textSize="30sp"
+        android:id="@+id/question_text"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_below="@+id/question_text" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:text="@string/breastfeeding_button_text"
+            android:id="@+id/breastfeeding_button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:text="@string/soft_food_button_text"
+            android:id="@+id/soft_food_button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:text="@string/solid_food_button_text"
+            android:id="@+id/solid_food_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/question_text"
+        android:id="@+id/colors_layout"
+        android:layout_marginTop="20dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal" >
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:background="@color/blackPoop"
+                android:id="@+id/black_button" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/brownPoop"
+                android:id="@+id/brown_button" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/greenPoop"
+                android:id="@+id/green_button"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal" >
+
+
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/yellowPoop"
+                android:id="@+id/yellow_button" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/redPoop"
+                android:id="@+id/red_button"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/whitePoop"
+                android:id="@+id/white_button"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="35dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/question_text" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/runny_text"
+                android:textSize="30sp"
+                android:id="@+id/runny_button" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/soft_text"
+                android:textSize="30sp"
+                android:id="@+id/soft_button" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hard_text"
+                android:textSize="30sp"
+                android:id="@+id/hard_button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/question_text" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chunky_text"
+                android:textSize="30sp"
+                android:id="@+id/chunky_button" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/constipated_text"
+                android:textSize="30sp"
+                android:id="@+id/constipated_button" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:layout_below="@+id/colors_layout"
+        android:layout_centerInParent="true"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textSize="30sp"
+            android:text="@string/back_text"
+            android:id="@+id/back_button"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textSize="30sp"
+            android:text="@string/next_text"
+            android:id="@+id/next_button" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

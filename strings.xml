@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">HackISUs17</string>
+    <string name="diagnostic_text">Diagnostic Test</string>
+    <string name="next_text">Next</string>
+
+    <string name="breastfeeding_button_text">Breastfeeding</string>
+    <string name="soft_food_button_text">Soft Food</string>
+    <string name="solid_food_button_text">Solid Food</string>
+
+    <string name="diagnostic_start_text">Starting diagnostic test. Click next when ready.</string>
+
+    <string name="food_type_instructions">Choose what best describes your child\'s eating habits:</string>
+    <string name="color_instructions">Choose the color that is closest to what your child\'s poop looks like:</string>
+    <string name="consistency_instructions">Choose the word that best describes the consistency of your child\'s poop:</string>
+
+    <string name="black_text">Black</string>
+    <string name="brown_text">Brown</string>
+    <string name="green_text">Green</string>
+    <string name="yellow_text">Yellow</string>
+    <string name="red_text">Red</string>
+    <string name="white_text">White</string>
+
+    <string name="runny_text">Runny</string>
+    <string name="soft_text">Soft</string>
+    <string name="hard_text">Hard</string>
+    <string name="chunky_text">Chunky</string>
+    <string name="constipated_text">Constipated</string>
+
+    <string name="main_title_text">DutyDoctor</string>
+    <string name="main_description_text">Welcome to DutyDoctor, where we diagnose your baby through its diaper.</string>
+    <string name="results_title_text">Results</string>
+    <string name="back_text">Back</string>
+
+</resources>

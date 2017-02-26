@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color> -->
+    <color name="colorPrimary">#595959</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="greenPoop">#666600</color>
+    <color name="brownPoop">#4d3800</color>
+    <color name="blackPoop">#262600</color>
+    <color name="redPoop">#4d0000</color>
+    <color name="yellowPoop">#cc9900</color>
+    <color name="whitePoop">#ffffff</color>
+    <color name="lightGray">#e6e6e6</color>
+    <color name="lightBlue">#b3e6ff</color>
+
+</resources>
